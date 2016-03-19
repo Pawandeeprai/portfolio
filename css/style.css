@@ -96,10 +96,10 @@ body input[type="text"],body input[type="submit"],body textarea,body input[type=
 }
 .bannerhead h3{
 	font-family: Helvetica, sans-serif;
-	color: rgb(100, 155, 255);
-	font-weight: bolder;
-	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
-	font-size: 2.5em;
+  color: #F1E9F2;
+  font-weight: bolder;
+  text-shadow: 1px 1px 1px black;
+  font-size: 2.5em;
 }
 .bannerhead p{
     color:#F1E9F2;
