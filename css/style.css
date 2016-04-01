@@ -33,7 +33,6 @@ body input[type="text"],body input[type="submit"],body textarea,body input[type=
 }
 /*------ CONTAINER STARTS---------*/
 .container{
-	width:70%;
 }
 /*------ LOGO STARTS---------*/
 .logo{
@@ -72,8 +71,7 @@ body input[type="text"],body input[type="submit"],body textarea,body input[type=
 	width: 86%;
 }
 .banner-info{
-	width: 70%;
-	float: right;
+	float: left;
 }
 .bannerlogo{
 	float: left;
@@ -81,6 +79,7 @@ body input[type="text"],body input[type="submit"],body textarea,body input[type=
 }
 .bannerhead{
 	float:right;
+	margin-top: 195px;
 }
 .bannerhead h2{
 	color: #C5B7B8;
@@ -92,14 +91,14 @@ body input[type="text"],body input[type="submit"],body textarea,body input[type=
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 	color: #F1E9F2;
 	font-weight: bolder;
-	font-size: 1.2em;
+	font-size: 120px
 }
 .bannerhead h3{
 	font-family: Helvetica, sans-serif;
   color: #F1E9F2;
   font-weight: bolder;
   text-shadow: 1px 1px 1px black;
-  font-size: 2.5em;
+  font-size: 103px;
 }
 .bannerhead p{
     color:#F1E9F2;
@@ -118,11 +117,10 @@ a.downarrow{
 }
 .bannerhead{
 	position: relative;
-	width: 90%;
 }
 .banner-info{
 	position: relative;
-	top: 182px;
+	top: 50px;
 	left: 11%;
 }
 
@@ -586,8 +584,8 @@ p.copy-right a{
 		margin: 0.3em 0 0.5em 0em;
 	}
 	.bannerhead h3 {
-		font-size: 2em;
 		margin: 0.3em 0 0.3em;
+		font-size: 103px;
 	}
 }
 @media (max-width:480px){
