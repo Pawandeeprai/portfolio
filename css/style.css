@@ -1,9 +1,4 @@
-/*----
-	Author: W3layouts
-	Author URL: http://w3layouts.com
-	License: Creative Commons Attribution 3.0 Unported
-	License URL: http://creativecommons.org/licenses/by/3.0/
----*/
+
 html,body{
 	font-family: 'Lato', sans-serif;
 }
@@ -91,7 +86,7 @@ body input[type="text"],body input[type="submit"],body textarea,body input[type=
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 	color: #F1E9F2;
 	font-weight: bolder;
-	font-size: 4.2em;
+	font-size: 5.2em;
 }
 .bannerhead h3{
 	font-family: 'Shadows Into Light', cursive;
@@ -99,6 +94,23 @@ body input[type="text"],body input[type="submit"],body textarea,body input[type=
   font-weight: bolder;
   text-shadow: 1px 1px 1px black;
   font-size: 103px;
+}
+
+@media screen and (max-width: 768px) {
+	.bannerhead h2 span{
+		font-family: 'Shadows Into Light', cursive;
+		text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+		color: #F1E9F2;
+		font-weight: bolder;
+		font-size: 2.2em;
+	}
+	.bannerhead h3{
+		font-family: 'Shadows Into Light', cursive;
+	  color: #F1E9F2;
+	  font-weight: bolder;
+	  text-shadow: 1px 1px 1px black;
+	  font-size: 32px;
+	}
 }
 .bannerhead p{
     color:#F1E9F2;
